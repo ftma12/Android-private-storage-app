@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="@color/md_theme_surface"
+    android:gravity="center_vertical">
+
+    <!-- File Thumbnail -->
+    <ImageView
+        android:id="@+id/file_thumbnail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/file_placeholder" />
+
+    <!-- File Info Layout -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- File Name -->
+        <TextView
+            android:id="@+id/file_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="File Name"
+            android:textSize="16sp"
+            android:textColor="@color/md_theme_onSurface"
+            android:textStyle="bold"/>
+
+        <!-- File Details -->
+        <TextView
+            android:id="@+id/file_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13 Mar, 500 KB, JPG image"
+            android:textSize="14sp"
+            android:textColor="@color/md_theme_onSurfaceVariant"
+            android:layout_marginTop="4dp"/>
+    </LinearLayout>
+
+    <!-- Open Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/open_file_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open"
+        style="@style/Widget.Material3.Button"
+        android:padding="5dp"
+        android:textSize="14sp"
+        android:textColor="@color/md_theme_onPrimary"/>
+</LinearLayout>

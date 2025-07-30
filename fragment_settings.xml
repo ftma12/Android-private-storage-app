@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/md_theme_surface"
+    tools:context=".SettingsFragment">
+
+    <!-- Material 3: Biometric Authentication Switch -->
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchBiometric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:checked="false"
+        android:text="Enable Biometric Authentication"
+        android:textColor="@color/md_theme_onSurface"
+        app:trackTint="@color/md_theme_primaryContainer"
+        app:trackTintMode="src_in"
+        app:thumbTint="@color/md_theme_primary"
+        app:thumbTintMode="src_in" />
+
+
+    <!-- Material 3: ListView Container -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        app:cardBackgroundColor="@color/md_theme_surfaceContainer"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="12dp">
+
+        <ListView
+            android:id="@+id/settings_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/md_theme_outlineVariant"
+            android:dividerHeight="1dp"/>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

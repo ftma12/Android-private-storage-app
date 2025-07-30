@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "50450654347",
+    "project_id": "privatestorageapp",
+    "storage_bucket": "privatestorageapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50450654347:android:fa0edc2b816e29de33208e",
+        "android_client_info": {
+          "package_name": "com.example.privatefilestorageapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgdhMDOdD_3FXDKpk2f1hIRhlZAig0RXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

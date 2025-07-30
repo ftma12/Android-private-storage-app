@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/home"
+        android:icon="@drawable/home_icon"
+        android:title="Home"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item android:id="@+id/files"
+        android:icon="@drawable/files_icon"
+        android:title="Files"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item android:id="@+id/upload"
+        android:icon="@drawable/upload_icon"
+        android:title="Upload"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item android:id="@+id/settings"
+        android:icon="@drawable/setting_icon"
+        android:title="Settings"
+        app:showAsAction="ifRoom|withText"/>
+    </menu>
